@@ -5,7 +5,7 @@ For this exercise, we'll create a Rails app with Postgres database. The end resu
 ## Getting Started
 
 1. Fork and clone this repository to your computer
-1. In the project directory run:
+1. To generate a new Rails application, in the project directory run:
 ```
 rails new ./ -d postgresql
 ```
@@ -17,16 +17,19 @@ bundle install
 ```
 rails db:create
 ```
-1. Generate a model for `pokemon`
-1. Create the pokemons table in your database
-1. Seed data into the newly created pokemons table by running:
+2. Generate a model for `pokemon` and specify the table attributes
+3. To create your pokemons table in your database:
 ```
 rails db:migrate
 ```
-1. Command when you want to start your server:
+4. Seed data into the newly created pokemons table by running:
+```
+rails db:seed
+```
+5. Command when you want to start your server:
 ```
 rails server
-``` 
+```
 
 ## Deliverables
 
