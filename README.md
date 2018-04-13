@@ -51,6 +51,6 @@ Refer to the gitbook materials for relevant commands and examples: https://wdi-s
 ### Bonus:
 - Change your data model by adding a migration. (Look up the rails docs for running a `change table` migration.)
 - Add a pokemon master who will `have many` pokemon. (This is different from a logged in user / you won't need login capability)
-You can change the seed file as well to have a seed master who has pokemon, or you can start with an empty db.
-Use nested routes to refer to the pokemons and their masters.
+- You can change the seed file as well to have a seed master who has pokemon, or you can start with an empty db.
+- Use nested routes to refer to the pokemons and their masters.
 
