@@ -1,0 +1,14 @@
+<img src=<%= @pokemon.img %>>
+</br>
+<strong>ID:</strong><%= @pokemon.id %>
+</br>
+<strong>name:</strong><%= @pokemon.name %>
+</br>
+<strong>height:</strong><%= @pokemon.height %>
+</br>
+<strong>weight:</strong><%= @pokemon.weight %>
+
+<p>
+<%= link_to 'Back', pokemons_path %>
+<%= link_to 'Edit', edit_pokemon_path(@pokemon) %>
+</p>
